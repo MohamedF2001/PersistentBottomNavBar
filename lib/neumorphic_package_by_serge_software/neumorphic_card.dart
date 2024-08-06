@@ -48,7 +48,7 @@ class _NeumorphicContainer extends StatelessWidget {
 
   @override
   Widget build(final BuildContext context) {
-    final color = decoration.color ?? Theme.of(context).scaffoldBackgroundColor;
+    final color = decoration.color ?? Theme.of(context).colorScheme.background;
     final emboss = curveType == CurveType.emboss;
 
     Color colorValue = color;
